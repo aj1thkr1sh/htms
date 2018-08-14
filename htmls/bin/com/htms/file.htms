@@ -1,0 +1,14 @@
+<htms>
+	<head>
+		<assign name="a" value="1" />
+		<assign name="b" value="16"></assign>
+	</head>
+	<body>
+		<if condition="b==16">
+			<print>{b}</print>
+		</if>
+		<if condition="b!=16">
+			<print>{b}</print>
+		</if>
+	</body>
+</htms>
